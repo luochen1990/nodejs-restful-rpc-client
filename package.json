@@ -5,7 +5,8 @@
   "main": "src/client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "decaffeinate --use-cs2 --use-optional-chaining --loose --disable-suggestion-comment src/"
+    "build": "decaffeinate --use-cs2 --use-optional-chaining --loose --disable-suggestion-comment src/",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
