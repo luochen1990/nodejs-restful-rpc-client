@@ -2,9 +2,10 @@
   "name": "restful-rpc-client",
   "version": "0.0.1",
   "description": "client part of the restful-rpc framework",
-  "main": "index.js",
+  "main": "src/client.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "decaffeinate --use-cs2 --use-optional-chaining --loose --disable-suggestion-comment src/"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/luochen1990/nodejs-restful-rpc-client/issues"
   },
-  "homepage": "https://github.com/luochen1990/nodejs-restful-rpc-client#readme"
+  "homepage": "https://github.com/luochen1990/nodejs-restful-rpc-client#readme",
+  "dependencies": {
+    "agentkeepalive": "^3.4.1",
+    "node-define-error": "^0.1.2"
+  }
 }

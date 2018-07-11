@@ -1,0 +1,15 @@
+test/
+*.coffee
+
+node_modules/
+*.log
+*.tmp
+*.bak
+*.session.*
+report/
+coverage/
+*_bak/
+.idea/
+debug/*
+!.place-holder
+!*.example
